@@ -34,7 +34,7 @@ describe "follow methods" do
     it "should have the right followed user" do
       @relationship.followed.should == @followed
     end
- 
+ end
 
 describe "validations" do
 
